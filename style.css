@@ -1,0 +1,64 @@
+/*Regole generali*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7FFFD4;
+    font-family: Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Sezione header*/
+
+header {
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-part {
+    align-items: center;
+}
+
+.left-part .ms_logo-text {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.right-part .ms_button-header {
+    width: 6em;
+}
+
+/*Sezione Main*/
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    border: 1px solid #fff;
+}
+
+/*Sezione footer*/
+
+footer {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.ms_footer-link {
+    margin-left: 100px;
+}
